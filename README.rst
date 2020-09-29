@@ -84,6 +84,12 @@ Arduino Uno及びNucleo-64とのピンマップ
 
  .. image:: /img/05.jpg
 
+ ■　ライブラリについて
+
+ 以下のリポジトリにて公開＆開発を行っております。
+ 
+ https://github.com/ArtifactNoise/Arduino-EtherCAT-Slave
+
 
 ■ 注意
 
