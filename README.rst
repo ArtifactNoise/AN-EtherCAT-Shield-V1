@@ -19,16 +19,25 @@ SPIの通信機能を使用し、５Vもしくは3.3Vのレベル変換回路を
 部品配置の関係で、Arduino Megaには対応いたしません。
 
 ○ 試せる機能
+ 
  SPIを用いてのLAN9252レジスタへのアクセス
+
  SPIを用いてのEtherCATレジスタへのアクセス
+ 
  SPIを用いてのProcessRAMやUserRAMへのアクセス
+ 
  PC(LinuxやRaspberryPi)よりマイコンへのアクセス
 
 ○ 試せない機能
+ 
  GPIOを用いての制御（どの端子にも接続していません）
+ 
  QSPIによる通信（SPIのみ対応）
+ 
  SYNC0,1による制御（どの端子にも接続していません）
+ 
  LATCH0,1による制御（どの端子にも接続していません）
+
 ※上記の内容については、「AN-201_EtherCATスレーブ評価基板LAN9252使用」にて試すことができます。
 
 
@@ -49,12 +58,12 @@ Ethernetポート: x2 （EtherCATとして動作します）
 Arduino Uno及びNucleo-64とのピンマップ
 
 :Arduino Uno/Nucleo-64: EtherCATシールド
-:5V:5V
-:D13:SCK
-:D12:MISO
-:D11:MOSI
-:D10:#CS
-:GND:GND
+:5V: 5V
+:D13: SCK
+:D12: MISO
+:D11: MOSI
+:D10: #CS
+:GND: GND
 
 
 ■ レベル変換について
