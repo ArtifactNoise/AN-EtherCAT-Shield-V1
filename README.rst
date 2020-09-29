@@ -6,8 +6,7 @@ AN-203 EtherCATシールド評価基板【5V用】
 AN-204 EtherCATシールド評価基板【3.3V用】
 ===================================================
 
-発売準備中・・・・
-
+ .. image:: /img/Resized/TOP.jpg
 
 産業用通信規格であるEtherCATを評価できる評価基板です。
 EEPROMが搭載してあり、カスタマイズした設定を書き込むことができます。
@@ -49,18 +48,23 @@ Ethernetポート: x2 （EtherCATとして動作します）
 
 Arduino Uno及びNucleo-64とのピンマップ
 
-Arduino Uno  Nucleo-64      EtherCATシールド
-    5V          5V              5V
-    D13         D13             SCK
-    D12         D13             MISO
-    D11         D13             MOSI
-    D10         D13             #CS
-    GND         GND             GND
+:Arduino Uno/Nucleo-64: EtherCATシールド
+:5V:5V
+:D13:SCK
+:D12:MISO
+:D11:MOSI
+:D10:#CS
+:GND:GND
 
-以下のサイトよりサンプルソースを確認することができます。
 
-詳しくはサポートページ
-よりご覧ください。
+■ レベル変換について
+
+当商品は、5V用と3.3V用がございますが、どちらも同じ基板です。
+基板上にある半田ジャンパーにより、レベルの違いを変更してあります。
+もし買われた商品から電圧を変えたい際は、写真の箇所のジャンバーを変更してください。
+
+ .. image:: /img/05.jpg
+
 
 ■ 注意
 
